@@ -1,5 +1,5 @@
 {
-  "name": "SampleProject",
+  "name": "sample-project",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -50,5 +50,22 @@
       "json",
       "node"
     ]
-  }
+  },
+  "description": "Test readme",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dccabao/sample_project.git"
+  },
+  "keywords": [
+    "don",
+    "sample",
+    "pack"
+  ],
+  "author": "Don Abao <dccabao@gmail.com> (https://github.com/dccabao/sample_project)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dccabao/sample_project/issues"
+  },
+  "homepage": "https://github.com/dccabao/sample_project#readme"
 }
