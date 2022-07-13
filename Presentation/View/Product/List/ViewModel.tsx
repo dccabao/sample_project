@@ -1,11 +1,11 @@
 import {useState} from 'react';
-import getProductsUseCase from '../../Domain/UseCase/Product/GetProducts';
+import {getProductsUseCase} from '../../../../Domain/UseCase/Product/GetProducts';
 export default function ProductListViewModel() {
   const [error, setError] = useState('');
   const [products, setProducts] = useState([]);
 
-  async function getProducts() {
-    const {result, error} = await getProductsUseCase();
+  function getProducts() {
+    const {result, error} = getProductsUseCase();
     setError(error);
     setProducts(result);
   }
